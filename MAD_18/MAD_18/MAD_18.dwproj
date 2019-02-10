@@ -6,6 +6,20 @@
     <Name>MAD_18.database</Name>
     <FullPath>MAD_18.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>FACT ORDERS.dim</Name>
+      <FullPath>FACT ORDERS.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACT SPECIALDEALS.dim</Name>
+      <FullPath>FACT SPECIALDEALS.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>INVOICES.dim</Name>
+      <FullPath>INVOICES.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>WideWorldImporters.ds</Name>

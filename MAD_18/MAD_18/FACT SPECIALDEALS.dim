@@ -1,0 +1,178 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e9dddc17-90d3-40cd-a9cd-28defb3b4e8b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>FACT SPECIALDEALS</ID>
+  <Name>FACT SPECIALDEALS</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8bfc938e-e2c0-48ad-a848-e6315930f83f">
+    <DataSourceViewID>Wide World Importers</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="55f9244d-1bad-43de-9be9-7855c2a90cf8">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="2d9be0e8-8219-41a5-8f8d-a5014981b772">
+      <ID>SPECIALDEALID</ID>
+      <Name>SPECIALDEALID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="114188f1-8c4c-43fd-8e73-68e95ec3f8b0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c7db20a-97ca-4f82-8a7c-f7ed72df2dd5">
+            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            <ColumnID>SPECIALDEALID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c17a25ef-9ce6-4854-8400-1d99dfb733d8">
+          <AttributeID>DEALDESCRIPTION</AttributeID>
+          <Name>DEALDESCRIPTION</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="70dbc43c-ee9f-48df-a08a-8e822ea5dfa8">
+          <AttributeID>STARTDATE</AttributeID>
+          <Name>STARTDATE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f90b974-044e-463f-b53e-06a027953ca5">
+          <AttributeID>ENDDATE</AttributeID>
+          <Name>ENDDATE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e223aa20-550f-4a4b-9ad3-bbf8dd46b0fb">
+          <AttributeID>DISCOUNTPERCENTAGE</AttributeID>
+          <Name>DISCOUNTPERCENTAGE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f227a469-7718-49e8-aafd-bb8fa8101d9d">
+          <AttributeID>CUSTOMERID</AttributeID>
+          <Name>CUSTOMERID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2571c837-0c2b-4783-bf5e-9fe2dc2f5603">
+      <ID>DEALDESCRIPTION</ID>
+      <Name>DEALDESCRIPTION</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95833ef1-78ee-48fa-89dd-4da1e841c834">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4140521-4c90-4c45-b30d-0af736cef8d1">
+            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            <ColumnID>DEALDESCRIPTION</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9f1c1ddf-ce23-4b62-a678-2bb85b299626">
+      <ID>STARTDATE</ID>
+      <Name>STARTDATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1bcfcb52-5236-4855-86f8-5afcf683463c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b71b944b-efcc-413a-9385-2f78275c4cd8">
+            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            <ColumnID>STARTDATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="91ea816c-2111-42dd-8ac4-ec3f37fffdb8">
+      <ID>ENDDATE</ID>
+      <Name>ENDDATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3b7336bd-0162-43a0-806d-740aff2bc0bc">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e8f3fbee-8801-483d-83e4-f6986686359e">
+            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            <ColumnID>ENDDATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="51671695-e34b-4adc-8682-8b29c60b5283">
+      <ID>DISCOUNTPERCENTAGE</ID>
+      <Name>DISCOUNTPERCENTAGE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1c8a430-959b-4c7d-843a-425cc39d70d7">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd8ee128-6317-4ca6-a9a5-4736cf0c04fa">
+            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            <ColumnID>DISCOUNTPERCENTAGE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6da783ed-7cd2-4015-a2bc-2ecadb812cad">
+      <ID>CUSTOMERID</ID>
+      <Name>CUSTOMERID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3a996ca5-5633-4383-a521-0192cdf87b3a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="370a5cd2-e284-4c28-b8b3-ebc24d5bcfd5">
+            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            <ColumnID>CUSTOMERID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
