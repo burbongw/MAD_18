@@ -1,0 +1,536 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7f9cf838-ff2b-4b8a-8a88-4fad14b305b3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Wide World Importers</ID>
+  <Name>Wide World Importers</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="5d415632-682c-412e-ad99-17215e2097e8">
+      <ID>FACT ORDERS</ID>
+      <Name>FACT ORDERS</Name>
+      <Translations>
+        <Translation dwd:design-time-name="68de38d4-3e3e-4e0e-8455-1fb161ea86af">
+          <Language>1045</Language>
+          <Caption>Zamówienia</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>FACT ORDERS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="da8b5269-0acb-4122-b236-17411275150b">
+          <AttributeID>ORDERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="73e2830d-b425-430f-80d4-0951e0074544">
+          <AttributeID>EXPECTEDDELIVERYDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc976714-a779-43b0-96ab-76d34fe2911e">
+          <AttributeID>CUSTOMERPURCHASEORDERNUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="778e222b-7d44-4c3c-a2c2-ef27ad678cb7">
+          <AttributeID>CUSTOMERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ceb651b-3aa6-41af-ab77-acd0023918b6">
+          <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46c225f8-c9dc-4c98-9d9a-d85c32e7b547">
+          <AttributeID>STANDARDDISCOUNTPERCENTAGE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3eef3c83-3977-4481-973b-a27f6c91ad6c">
+          <AttributeID>PHONENUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae825490-9296-4664-96a6-a4d7f76d2cbd">
+          <AttributeID>CUSTOMER ADDRESS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d7f24318-f1ed-4738-b23b-35fb3e9210c5">
+          <AttributeID>CITYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5ac18e2-5fe5-4dec-8b1e-756d2780963b">
+          <AttributeID>STATEPROVINCEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1e22cf79-efd0-49e4-81f3-44d990bf4d42">
+          <AttributeID>COUNTRYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee0f2a26-27b8-44bc-a918-48b006c93334">
+          <AttributeID>DATE</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="407b698f-65e6-40f8-bad1-c161e4205722">
+      <ID>CUSTOMERID</ID>
+      <Name>CUSTOMERID</Name>
+      <DimensionID>FACT ORDERS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="91309735-d1d8-4467-963c-5a1dde32b264">
+          <AttributeID>ORDERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f8d64693-48d4-4ef6-bed4-8eea6f6e1ad9">
+          <AttributeID>EXPECTEDDELIVERYDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d44369c2-ea9d-4add-9c55-219a62c9a772">
+          <AttributeID>CUSTOMERPURCHASEORDERNUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bc879c7-db48-4a17-affc-3b10dcc0213e">
+          <AttributeID>CUSTOMERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dcf2adb1-fc11-4004-a56c-7b363fc8859a">
+          <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5c7bcad-8c79-410c-903b-f0d7fe15ab18">
+          <AttributeID>STANDARDDISCOUNTPERCENTAGE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fed6ccf5-120a-47bf-836e-11123a52d52a">
+          <AttributeID>PHONENUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89e0bd2f-60f7-43d9-bdef-36fb41c76777">
+          <AttributeID>CUSTOMER ADDRESS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5abc47ab-16b8-4007-94de-3a5719f13565">
+          <AttributeID>CITYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8889700-22b3-4fa4-9f60-ef9e69887ae7">
+          <AttributeID>STATEPROVINCEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37af3205-9567-4bdd-b812-fa0e40c66656">
+          <AttributeID>COUNTRYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1489148-6370-4647-bad4-7fb86ce6fbf1">
+          <AttributeID>DATE</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="09561086-677c-4933-aec7-ed9d4d0bde6e">
+      <ID>ORDERDATE</ID>
+      <Name>ORDERDATE</Name>
+      <DimensionID>FACT ORDERS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="71519a3e-cacd-4eeb-bc00-8eb023b38d3c">
+          <AttributeID>ORDERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="67060e5c-44fa-4dab-90bc-be6a5380e49f">
+          <AttributeID>EXPECTEDDELIVERYDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="935e4ac6-fea9-481f-98c0-df549ac7ad6f">
+          <AttributeID>CUSTOMERPURCHASEORDERNUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8fc040ac-912e-46da-917d-3cac2f4631e4">
+          <AttributeID>CUSTOMERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad598f09-76a6-4d83-9efa-bed768c1fc0c">
+          <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="45fa9e36-d757-4e17-989c-941ce6bf9874">
+          <AttributeID>STANDARDDISCOUNTPERCENTAGE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b1623a2-1172-49f1-975d-f63400c69164">
+          <AttributeID>PHONENUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b979077a-a93f-49ab-853d-d6fb92368768">
+          <AttributeID>CUSTOMER ADDRESS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4be999b-6c7e-4a6b-b89e-7ccd524d1e2f">
+          <AttributeID>CITYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c86f8a72-75e0-4a9f-9a2a-9302704ed2f1">
+          <AttributeID>STATEPROVINCEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3399adff-0e7c-49e7-9c8b-8f806dd78f8f">
+          <AttributeID>COUNTRYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0fc29463-a68e-4dd9-889f-1a6358f14de3">
+          <AttributeID>DATE</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="da88c295-1451-4f99-b4a3-b2930bf8b0b1">
+      <ID>FACT SPECIALDEALS</ID>
+      <Name>FACT SPECIALDEALS</Name>
+      <Translations>
+        <Translation dwd:design-time-name="8c3d48de-ef39-4ffe-ada4-7646e1dbeb21">
+          <Language>1045</Language>
+          <Caption>Oferty specjalne</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>FACT SPECIALDEALS</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8d1204bc-d648-4023-8bc8-a5e6173442ba">
+          <AttributeID>SPECIALDEALID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7521b9f0-c96b-44c7-bd68-714487767218">
+          <AttributeID>STARTDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b35a3e8-da9f-4eb4-aa4f-6db80733cefc">
+          <AttributeID>ENDDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="acc636d4-564b-4a74-a92d-69c3bbb8e56d">
+          <AttributeID>DISCOUNTPERCENTAGE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c50eb2ca-716d-426f-8da2-12ff8866a1b2">
+          <AttributeID>CUSTOMERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e4e4b50-561f-4ae1-b57b-b52066d7a03f">
+          <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97b78141-38e6-44bf-829f-79b51d65dc74">
+          <AttributeID>STANDARDDISCOUNTPERCENTAGE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be0c1108-504c-4682-9a0e-354dd2d6ee92">
+          <AttributeID>PHONENUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="60da966d-1fa5-46a4-bdde-9ee3ecb7db73">
+          <AttributeID>CUSTOMER ADDRESS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e971a301-1298-496e-918c-63d5b9b8c5fa">
+          <AttributeID>CITYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ec66c25-5535-40c0-8031-dfba9316ff70">
+          <AttributeID>STATEPROVINCEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dff90c9e-3059-490c-a504-d2f498490866">
+          <AttributeID>COUNTRYID</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="230acdb9-34dc-4f58-a245-f40b67a8c831">
+      <ID>INVOICES</ID>
+      <Name>INVOICES</Name>
+      <Translations>
+        <Translation dwd:design-time-name="d47d2a9b-7e6c-45df-b9d2-c0d757fd4312">
+          <Language>1045</Language>
+          <Caption>Faktury</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>INVOICES</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1281b8f2-4849-4bbc-af0b-215514190aa6">
+          <AttributeID>INVOICEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="df5b3118-f597-457c-aec0-702e0036d6dd">
+          <AttributeID>INVOICEDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="567d52f4-2dab-4b5d-b7a4-6966e15a403d">
+          <AttributeID>CUSTOMERPURCHASEORDERNUMBER</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb2757b7-0cd1-4715-a980-aba8e39dacc4">
+          <AttributeID>DELIVERYINSTRUCTIONS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3142bac4-f2d5-4fc9-86e9-47e67649e6d1">
+          <AttributeID>TOTALDRYITEMS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="143d07b7-249d-4a2f-ad59-52d95da6c527">
+          <AttributeID>TOTALCHILLERITEMS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="14979175-f894-4f0b-b403-e9b86604ab9a">
+          <AttributeID>DELIVERYDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c40b7e04-a28a-4f87-9c24-8fb6f5f69dda">
+          <AttributeID>CONFIRMEDRECEIVEDBY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0d63515-f966-45a1-8df9-5bcc66241697">
+          <AttributeID>ORDERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c1eab8c6-f42f-455c-a2c5-98364d663b34">
+          <AttributeID>EXPECTEDDELIVERYDATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1676769-d38e-4b74-942a-b4c5b0eac16a">
+          <AttributeID>CUSTOMER - CUSTOMERID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4bd0c3e-ff34-4a86-bc6f-60d65efa1591">
+          <AttributeID>CITYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93a15e23-9fff-47d5-b132-058b1751f7b9">
+          <AttributeID>STATEPROVINCEID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e9814c82-4485-45c6-b72d-1c2d02f2500c">
+          <AttributeID>COUNTRYID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2032ef49-8068-49c7-b7c7-08cd9214dd0d">
+          <AttributeID>DATE</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="57bf8dd7-d4fe-4416-b1a9-915c59a62bee">
+      <ID>FACT ORDERS</ID>
+      <Name>FACT ORDERS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="71fc4b46-3b2d-4ffd-8938-c8cc80d7fd19">
+          <ID>FACT ORDERS Count</ID>
+          <Name>FACT ORDERS Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="c58574e4-2fd9-4080-907b-3c578a8ee79f">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="1a623dc0-b0e5-4ee7-8a11-3a176e0b6e89">
+              <TableID>OLAP_FACT_ORDERS</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="b24053e5-54a4-4422-8f33-c795dd62d0b5">
+          <CubeDimensionID>FACT ORDERS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0d7871e8-02a5-4e6e-8050-a273acb9b77c">
+              <AttributeID>ORDERID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f70e97d4-91cb-4784-86e7-17a558085cef">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a0ed948a-7fbc-4797-8a0f-e8c8303f3dea">
+                    <TableID>OLAP_FACT_ORDERS</TableID>
+                    <ColumnID>ORDERID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="04ea2512-c116-4aec-b74f-9f52b7173303">
+          <CubeDimensionID>CUSTOMERID</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f9924ca6-5355-4c60-a78b-9e6669f2a151">
+              <AttributeID>ORDERID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="57a0374e-a5d5-4a9d-bea8-e34ee5511bc9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="218964b5-1c9f-4684-877e-63018cd780e6">
+                    <TableID>OLAP_FACT_ORDERS</TableID>
+                    <ColumnID>ORDERID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="44eea088-9724-403d-85b4-06e28152d6ba">
+          <CubeDimensionID>ORDERDATE</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ff295833-2f11-43df-a8da-67eb051c8e92">
+              <AttributeID>ORDERID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="62d8bcbd-90d6-450c-8519-e283c0f3891c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75b3c740-67a2-414a-bfb9-f4653ef19c91">
+                    <TableID>OLAP_FACT_ORDERS</TableID>
+                    <ColumnID>ORDERID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="bbd75023-a4f6-412c-b49c-c0cf8f109bba">
+      <ID>FACT SPECIALDEALS</ID>
+      <Name>FACT SPECIALDEALS</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5e14971b-a974-4d05-9774-3008e3182461">
+          <ID>DISCOUNTPERCENTAGE</ID>
+          <Name>DISCOUNTPERCENTAGE</Name>
+          <Source dwd:design-time-name="f90903b7-9cb2-4b0c-8c0c-c53cfe8d7e9d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e2c07b14-7ee9-4a3e-8999-de375bf7027c">
+              <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+              <ColumnID>DISCOUNTPERCENTAGE</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4b991767-d9b5-4f31-9464-4004dd145e41">
+          <ID>FACT SPECIALDEALS Count</ID>
+          <Name>FACT SPECIALDEALS Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="0967cb53-8da9-4972-9483-9ab98ec55b16">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c0abbc04-7436-4963-8713-9d63fd42558a">
+              <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="338cd829-2864-4d2f-8203-a11adaee22c1">
+          <CubeDimensionID>FACT SPECIALDEALS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fc9af595-39ea-4a8e-ab59-48c9e8962bab">
+              <AttributeID>SPECIALDEALID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f43ce9b8-3aff-4ead-ab09-1c6c0431a136">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2ef0d5c1-83ae-4b96-b137-9e42aefaa44d">
+                    <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+                    <ColumnID>SPECIALDEALID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="25399e55-97dd-40bb-b4ad-17160c621b15">
+          <CubeDimensionID>CUSTOMERID</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5c8fda2b-8f02-4262-bdc9-5a3304d8c845">
+              <AttributeID>CUSTOMERID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e44a20dc-ce7b-4c91-b73b-2223c029a315">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6d4c4c6a-b2fd-4c63-810f-9339484cd2dc">
+                    <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+                    <ColumnID>CUSTOMERID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="f194c526-b55e-4f40-8122-0f7546628593">
+      <ID>INVOICES</ID>
+      <Name>INVOICES</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="78502fa9-908e-4768-b0f0-004772e8a76a">
+          <ID>TOTALDRYITEMS</ID>
+          <Name>TOTALDRYITEMS</Name>
+          <Source dwd:design-time-name="f8288d92-d304-4ac2-a27a-834297bf7213">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d140cf9a-24f1-43e9-9681-6fd6bf920299">
+              <TableID>OLAP_INVOICES</TableID>
+              <ColumnID>TOTALDRYITEMS</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="cf94092b-92ae-494e-a4f4-9f0791923bc5">
+          <ID>TOTALCHILLERITEMS</ID>
+          <Name>TOTALCHILLERITEMS</Name>
+          <Source dwd:design-time-name="8d10036f-402a-40b4-bbd1-9a97e2c0a020">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7218cd57-bb99-4ea4-81c5-363473897c62">
+              <TableID>OLAP_INVOICES</TableID>
+              <ColumnID>TOTALCHILLERITEMS</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6f119121-6bfd-4408-aab4-466257288202">
+          <ID>INVOICES Count</ID>
+          <Name>INVOICES Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="aa68c19c-38ae-466a-968b-3592aab6503b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="3c71fc5d-34c2-4adf-bfe9-cbf1936836cf">
+              <TableID>OLAP_INVOICES</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="3c2a96d1-dec1-4122-a4f1-29da76095527">
+          <CubeDimensionID>INVOICES</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="970e1700-e8e6-4dd7-9de9-723c164e465c">
+              <AttributeID>INVOICEID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fdb5121f-1911-4140-904b-8ceaf17a4555">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5bf3ebe5-9542-4dd7-b94d-06143afcb108">
+                    <TableID>OLAP_INVOICES</TableID>
+                    <ColumnID>INVOICEID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d56c2546-7c47-4936-acb8-ae3d35fa724e">
+          <CubeDimensionID>FACT ORDERS</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="608305d8-066f-4a14-9fe8-267899f07be1">
+              <AttributeID>ORDERID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="05478630-f04d-4671-b5ce-c4112320a394">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2b22b537-9aea-4016-aff0-821001435381">
+                    <TableID>OLAP_INVOICES</TableID>
+                    <ColumnID>ORDERID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6f66f1ee-1bab-4fa2-b745-13f50fc9ffd3">
+    <DataSourceViewID>Wide World Importers</DataSourceViewID>
+  </Source>
+</Cube>

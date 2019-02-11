@@ -6,6 +6,18 @@
     <Name>MAD_18.database</Name>
     <FullPath>MAD_18.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Wide World Importers.cube</Name>
+      <FullPath>Wide World Importers.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Wide World Importers.partitions</Name>
+          <FullPath>Wide World Importers.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>FACT ORDERS.dim</Name>
