@@ -19,6 +19,18 @@
       <Name>INVOICES.dim</Name>
       <FullPath>INVOICES.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>CUSTOMER.dim</Name>
+      <FullPath>CUSTOMER.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CITY.dim</Name>
+      <FullPath>CITY.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DATEDIMENSION.dim</Name>
+      <FullPath>DATEDIMENSION.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

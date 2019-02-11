@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e9dddc17-90d3-40cd-a9cd-28defb3b4e8b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="747bf4a0-5a0e-43ae-8338-e7df96a62533" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>FACT SPECIALDEALS</ID>
   <Name>FACT SPECIALDEALS</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,152 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2316" scrolltop="-5187" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17092" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CITY" left="4699" top="3411" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000310f00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="OLAP_CITY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="COUNTRY" left="11477" top="2" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3440" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000700d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="OLAP_COUNTRY" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PROVINCES" left="10988" top="6821" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4419" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000431100004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="OLAP_PROVINCES" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_SPECIALDEALS" left="20" top="12582" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4630" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000161200009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="OLAP_FACT_SPECIALDEALS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CUSTOMER" left="7050" top="12370" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="6218" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00004a18000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="OLAP_CUSTOMER" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8288" top="4685" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="4110" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[CITY-PROVINCES]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10988" y="8395" />
+              <point x="9788" y="8395" />
+              <point x="9788" y="4985" />
+              <point x="8588" y="4985" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6244" top="6061" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="4215" height="6609" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[CUSTOMER-CITY]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="7" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6643" y="6560" />
+              <point x="6643" y="9465" />
+              <point x="10159" y="9465" />
+              <point x="10159" y="12370" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="12798" top="3922" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[PROVINCES-COUNTRY]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13197" y="4421" />
+              <point x="13197" y="6821" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4350" top="14180" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FACT_SPECIALDEALS-CUSTOMER]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="28" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7050" y="14579" />
+              <point x="4650" y="14579" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,68 +167,65 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>2316</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-5187</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>2</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>100</Value>
+      <Value>75</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8bfc938e-e2c0-48ad-a848-e6315930f83f">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1a9e04a3-6881-4c77-be14-866f2d1383f5">
     <DataSourceViewID>Wide World Importers</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="55f9244d-1bad-43de-9be9-7855c2a90cf8">
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="bad5da0d-e4af-4914-a800-4588f59b4ba0">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2d9be0e8-8219-41a5-8f8d-a5014981b772">
+    <Attribute dwd:design-time-name="46b265c4-23d7-43c6-a094-058cb4ced4c4">
       <ID>SPECIALDEALID</ID>
       <Name>SPECIALDEALID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="114188f1-8c4c-43fd-8e73-68e95ec3f8b0">
+        <KeyColumn dwd:design-time-name="5bc7ee1f-b017-4443-8749-695a12665148">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c7db20a-97ca-4f82-8a7c-f7ed72df2dd5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="283c397f-71d1-429e-a30f-68ce025b4d84">
             <TableID>OLAP_FACT_SPECIALDEALS</TableID>
             <ColumnID>SPECIALDEALID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="c17a25ef-9ce6-4854-8400-1d99dfb733d8">
-          <AttributeID>DEALDESCRIPTION</AttributeID>
-          <Name>DEALDESCRIPTION</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="70dbc43c-ee9f-48df-a08a-8e822ea5dfa8">
+        <AttributeRelationship dwd:design-time-name="81e5371d-4f68-4800-9856-29523b3e215f">
           <AttributeID>STARTDATE</AttributeID>
           <Name>STARTDATE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3f90b974-044e-463f-b53e-06a027953ca5">
+        <AttributeRelationship dwd:design-time-name="963dabf1-79ff-474f-ac40-e419714d5049">
           <AttributeID>ENDDATE</AttributeID>
           <Name>ENDDATE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e223aa20-550f-4a4b-9ad3-bbf8dd46b0fb">
+        <AttributeRelationship dwd:design-time-name="3aa5174b-469f-4d74-81a4-949abe15b08a">
           <AttributeID>DISCOUNTPERCENTAGE</AttributeID>
           <Name>DISCOUNTPERCENTAGE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f227a469-7718-49e8-aafd-bb8fa8101d9d">
+        <AttributeRelationship dwd:design-time-name="ac9c9919-f031-4c35-9da4-22ad4a3454c0">
           <AttributeID>CUSTOMERID</AttributeID>
           <Name>CUSTOMERID</Name>
         </AttributeRelationship>
@@ -91,30 +234,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2571c837-0c2b-4783-bf5e-9fe2dc2f5603">
-      <ID>DEALDESCRIPTION</ID>
-      <Name>DEALDESCRIPTION</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="95833ef1-78ee-48fa-89dd-4da1e841c834">
-          <DataType>WChar</DataType>
-          <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4140521-4c90-4c45-b30d-0af736cef8d1">
-            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
-            <ColumnID>DEALDESCRIPTION</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="9f1c1ddf-ce23-4b62-a678-2bb85b299626">
+    <Attribute dwd:design-time-name="4caa788d-08e1-45dd-8c56-6563b2d1a01c">
       <ID>STARTDATE</ID>
       <Name>STARTDATE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1bcfcb52-5236-4855-86f8-5afcf683463c">
+        <KeyColumn dwd:design-time-name="53ff00ca-5706-4bcb-b30f-d5d7ad952042">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b71b944b-efcc-413a-9385-2f78275c4cd8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8284c4e1-5277-4073-ab6f-c8f725c32957">
             <TableID>OLAP_FACT_SPECIALDEALS</TableID>
             <ColumnID>STARTDATE</ColumnID>
           </Source>
@@ -124,13 +250,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="91ea816c-2111-42dd-8ac4-ec3f37fffdb8">
+    <Attribute dwd:design-time-name="fff89702-7ba6-4b48-8479-626450fc78d7">
       <ID>ENDDATE</ID>
       <Name>ENDDATE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3b7336bd-0162-43a0-806d-740aff2bc0bc">
+        <KeyColumn dwd:design-time-name="04787725-3b60-497a-a380-f6a11c6fdcfb">
           <DataType>Date</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e8f3fbee-8801-483d-83e4-f6986686359e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8a272e4-caa6-4356-be40-d665bea4fd21">
             <TableID>OLAP_FACT_SPECIALDEALS</TableID>
             <ColumnID>ENDDATE</ColumnID>
           </Source>
@@ -140,13 +266,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="51671695-e34b-4adc-8682-8b29c60b5283">
+    <Attribute dwd:design-time-name="85d3582e-5b0e-467e-a877-6c538c1b868a">
       <ID>DISCOUNTPERCENTAGE</ID>
       <Name>DISCOUNTPERCENTAGE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d1c8a430-959b-4c7d-843a-425cc39d70d7">
+        <KeyColumn dwd:design-time-name="6d0cb48d-38fb-4841-bd68-1be9fda49113">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd8ee128-6317-4ca6-a9a5-4736cf0c04fa">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec6ecdec-d847-41a3-876e-6c5e7b621183">
             <TableID>OLAP_FACT_SPECIALDEALS</TableID>
             <ColumnID>DISCOUNTPERCENTAGE</ColumnID>
           </Source>
@@ -156,20 +282,200 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6da783ed-7cd2-4015-a2bc-2ecadb812cad">
+    <Attribute dwd:design-time-name="828761a5-7ad7-4c39-94f5-f387d8ebecbd">
       <ID>CUSTOMERID</ID>
       <Name>CUSTOMERID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3a996ca5-5633-4383-a521-0192cdf87b3a">
+        <KeyColumn dwd:design-time-name="554279c4-49cb-42a1-987a-0fdde83a86ce">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="370a5cd2-e284-4c28-b8b3-ebc24d5bcfd5">
-            <TableID>OLAP_FACT_SPECIALDEALS</TableID>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b660593-863f-43ab-9245-fd6967ec1fdb">
+            <TableID>OLAP_CUSTOMER</TableID>
             <ColumnID>CUSTOMERID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="1dbe5758-5df0-44b9-a634-1a4a91b051a4">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3dcb7322-747c-4b75-a5bc-f5a527aef8d0">
+          <TableID>OLAP_CUSTOMER</TableID>
+          <ColumnID>CUSTOMERNAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="565393b9-bb0a-4143-8dec-a35a90c69c7d">
+          <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
+          <Name>ACCOUNTOPENEDDATE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="795fa9fe-cb2e-4740-b43a-f0114fe48cb3">
+          <AttributeID>STANDARDDISCOUNTPERCENTAGE</AttributeID>
+          <Name>STANDARDDISCOUNTPERCENTAGE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f59f7fdc-df18-4f1c-b25d-243e333b9983">
+          <AttributeID>PHONENUMBER</AttributeID>
+          <Name>PHONENUMBER</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="efa4bfa8-4488-4dae-9eb9-91a902d7ba9f">
+          <AttributeID>CUSTOMER ADDRESS</AttributeID>
+          <Name>CUSTOMER ADDRESS</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="221de2ae-0888-4582-bb30-5fb1c7c675e8">
+          <AttributeID>CITYID</AttributeID>
+          <Name>CITYID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e97b9f72-3db2-4c8a-aced-f984dc313613">
+      <ID>ACCOUNTOPENEDDATE</ID>
+      <Name>ACCOUNTOPENEDDATE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="115bf5f8-068f-41e4-b4ff-76dd0b9b88b6">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7f4de12c-c7a5-4c16-83ac-732c32a0db02">
+            <TableID>OLAP_CUSTOMER</TableID>
+            <ColumnID>ACCOUNTOPENEDDATE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9d457359-98cd-4353-bcef-6402f258f19f">
+      <ID>STANDARDDISCOUNTPERCENTAGE</ID>
+      <Name>STANDARDDISCOUNTPERCENTAGE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5dfddeb-0356-4491-82b2-340d96a18566">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0752bc38-58e9-471f-9b7f-8765fd52a6b3">
+            <TableID>OLAP_CUSTOMER</TableID>
+            <ColumnID>STANDARDDISCOUNTPERCENTAGE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="97df7d9c-b42b-4959-a38c-5d16bab110cc">
+      <ID>PHONENUMBER</ID>
+      <Name>PHONENUMBER</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8535d3d-c1e2-401e-8ead-4610265f8353">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94079a60-e344-4fc1-bac1-f33a5b0c9ec2">
+            <TableID>OLAP_CUSTOMER</TableID>
+            <ColumnID>PHONENUMBER</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4778822e-4a7c-483b-94d5-b0681f448721">
+      <ID>CUSTOMER ADDRESS</ID>
+      <Name>CUSTOMER ADDRESS</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="87b72f8a-64f8-46f9-ac75-665cf8e49c12">
+          <DataType>WChar</DataType>
+          <DataSize>132</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="afc6b178-e36d-4e2c-be2f-ce6a4b92d58c">
+            <TableID>OLAP_CUSTOMER</TableID>
+            <ColumnID>CUSTOMER_ADDRESS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b5c57ced-63fd-41c3-9f35-abcf1536faf3">
+      <ID>CITYID</ID>
+      <Name>CITYID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="794702e9-7653-43eb-ae22-3ada713e94cb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ce39486-a971-4113-a4ce-2e3a2fce2595">
+            <TableID>OLAP_CITY</TableID>
+            <ColumnID>CITYID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="58a93eef-9678-49a3-b215-7329c0220980">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9bcf8af0-4c1b-4842-ade5-53a69b8f815b">
+          <TableID>OLAP_CITY</TableID>
+          <ColumnID>CITYNAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5c251f12-212f-46eb-9bf9-8698ad5e6315">
+          <AttributeID>STATEPROVINCEID</AttributeID>
+          <Name>STATEPROVINCEID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cbbc4178-5808-4b29-b620-afeccfea06e9">
+      <ID>STATEPROVINCEID</ID>
+      <Name>STATEPROVINCEID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="62f8f4b3-c3e5-49db-bbec-89082ec406b1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a260393d-f371-4a18-82a1-8825a91b928b">
+            <TableID>OLAP_PROVINCES</TableID>
+            <ColumnID>STATEPROVINCEID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="0b8ecc2e-a15f-4f6b-8a9d-57ba602792ba">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="793b9859-b168-4955-9d57-6c0385cb1f9d">
+          <TableID>OLAP_PROVINCES</TableID>
+          <ColumnID>STATEPROVINCENAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f842b197-c9b4-49c8-9789-6161621bb976">
+          <AttributeID>COUNTRYID</AttributeID>
+          <Name>COUNTRYID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="374e9080-119a-4c31-80db-08ee1596ab59">
+      <ID>COUNTRYID</ID>
+      <Name>COUNTRYID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2e09aa27-644b-41ce-aaa8-46f33239fa7f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d49b69bb-9603-4098-9ef4-0eb54f788bcc">
+            <TableID>OLAP_COUNTRY</TableID>
+            <ColumnID>COUNTRYID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="15f568ad-b543-4e63-ab0b-97fe31d47ddf">
+        <DataType>WChar</DataType>
+        <DataSize>60</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b141583a-5914-433d-a07e-4dd14535375c">
+          <TableID>OLAP_COUNTRY</TableID>
+          <ColumnID>COUNTRYNAME</ColumnID>
+        </Source>
+      </NameColumn>
+      <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
