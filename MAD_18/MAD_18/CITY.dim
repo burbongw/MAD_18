@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="48" scrolltop="-8419" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="17092" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="48" scrolltop="-8419" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="17092" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CITY" left="6839" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CITY" left="20" top="0" logicalid="6" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000310f00004d0c0000" />
             </control>
@@ -29,64 +29,6 @@
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="COUNTRY" left="509" top="5549" logicalid="7" controlid="2" masterid="0" hint1="0" hint2="0" width="3440" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c0000700d000043110000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="OLAP_COUNTRY" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PROVINCES" left="20" top="0" logicalid="8" controlid="3" masterid="0" hint1="0" hint2="0" width="4419" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c0000431100004d0c0000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="OLAP_PROVINCES" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4139" top="1175" logicalid="9" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[CITY-PROVINCES]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="19" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="4439" y="1574" />
-              <point x="6839" y="1574" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1830" top="2849" logicalid="10" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[PROVINCES-COUNTRY]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="2229" y="5549" />
-              <point x="2229" y="3149" />
-            </connector>
           </ddscontrol>
         </dds>
       </Value>
@@ -178,26 +120,6 @@
           <AttributeID>VALIDTO</AttributeID>
           <Name>VALIDTO</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6b6a06f4-cc4b-41a7-a175-0d4dad226747">
-          <AttributeID>STATEPROVINCEID</AttributeID>
-          <Name>STATEPROVINCEID</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9405c8a1-353a-4522-9be6-4fd4098bdaa1">
-          <AttributeID>COUNTRYID</AttributeID>
-          <Name>COUNTRYID</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c73a5d7e-a3fe-4d08-9b0e-4bf58c7c74b3">
-          <AttributeID>CONTINENT</AttributeID>
-          <Name>CONTINENT</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1e3f100e-4f3a-4cef-9a63-0a5a9d0fa3c6">
-          <AttributeID>REGION</AttributeID>
-          <Name>REGION</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="211b3309-fe01-42a3-8aec-e24bfec3ae9e">
-          <AttributeID>SUBREGION</AttributeID>
-          <Name>SUBREGION</Name>
-        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -237,156 +159,6 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="dc750440-732e-4367-85e0-769cc8b7d39c">
-      <ID>STATEPROVINCEID</ID>
-      <Name>STATEPROVINCEID</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="2c3317d7-d795-4529-88e7-9f0ebf17e019">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ca16259-4d71-4153-b276-f8c2543d52f5">
-            <TableID>OLAP_PROVINCES</TableID>
-            <ColumnID>STATEPROVINCEID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="94b62dbe-0fda-4845-9781-d2cb2d52c546">
-        <DataType>WChar</DataType>
-        <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="71632dc7-e90f-4463-aed4-679eac29b16c">
-          <TableID>OLAP_PROVINCES</TableID>
-          <ColumnID>STATEPROVINCENAME</ColumnID>
-        </Source>
-      </NameColumn>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="f5fe6402-b949-4fde-af8c-13bbad98a49d">
-      <ID>COUNTRYID</ID>
-      <Name>COUNTRYID</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="8d1b2666-92cc-4099-b367-d867a1422688">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="488050dd-e8d2-4770-a7b8-21da2e709ea6">
-            <TableID>OLAP_COUNTRY</TableID>
-            <ColumnID>COUNTRYID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="94854eb0-f27b-47b0-a817-42f916a2e6c0">
-        <DataType>WChar</DataType>
-        <DataSize>60</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ffde3e02-a25e-45e0-ad49-0d66b3e1af48">
-          <TableID>OLAP_COUNTRY</TableID>
-          <ColumnID>COUNTRYNAME</ColumnID>
-        </Source>
-      </NameColumn>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="f631dba5-1136-452c-9167-108755e7833a">
-      <ID>CONTINENT</ID>
-      <Name>CONTINENT</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="5485492c-8df3-42f7-90c8-5007d543faa0">
-          <DataType>WChar</DataType>
-          <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="56fb1391-594e-41fd-87a3-79efd6d5ee82">
-            <TableID>OLAP_COUNTRY</TableID>
-            <ColumnID>CONTINENT</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <Translations>
-        <Translation dwd:design-time-name="690c5548-e51a-4582-aecb-876efdc816d5">
-          <Language>1045</Language>
-          <Caption>Kontynent</Caption>
-        </Translation>
-      </Translations>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="e5151a89-3ded-475e-9c43-20d5ee8e9ae8">
-      <ID>REGION</ID>
-      <Name>REGION</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="2097922e-5d69-4b96-94dd-eefc7d4c2b03">
-          <DataType>WChar</DataType>
-          <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d5385dd-3ae4-457a-9e41-69d5743d79ec">
-            <TableID>OLAP_COUNTRY</TableID>
-            <ColumnID>REGION</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <Translations>
-        <Translation dwd:design-time-name="727ef77f-f9ac-4ad4-8684-3a438f3bb08b">
-          <Language>1045</Language>
-          <Caption>Region</Caption>
-        </Translation>
-      </Translations>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="49dde8b1-3fe6-49dd-9257-1d9b11fd3000">
-      <ID>SUBREGION</ID>
-      <Name>SUBREGION</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="60ab5b04-507c-4b49-b7bd-78c3e1595ad0">
-          <DataType>WChar</DataType>
-          <DataSize>30</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f06c88c5-7198-473f-b3e9-62417377b287">
-            <TableID>OLAP_COUNTRY</TableID>
-            <ColumnID>SUBREGION</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <Translations>
-        <Translation dwd:design-time-name="43cccb5e-5b02-4759-8c33-768576e2b552">
-          <Language>1045</Language>
-          <Caption>Podregion</Caption>
-        </Translation>
-      </Translations>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
   </Attributes>
-  <Hierarchies>
-    <Hierarchy dwd:design-time-name="b8f87ff8-6b89-4d7a-8992-13879dc0d9f0">
-      <ID>Hierarchy</ID>
-      <Name>Hierarchy</Name>
-      <Levels>
-        <Level dwd:design-time-name="05745938-2546-4cbe-8d1e-341dc48a5a31">
-          <ID>CONTINENT</ID>
-          <Name>CONTINENT</Name>
-          <SourceAttributeID>CONTINENT</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="c115de20-1958-4389-92f8-ff221633ba0c">
-          <ID>REGION</ID>
-          <Name>REGION</Name>
-          <SourceAttributeID>REGION</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="ad6bd096-6dd6-4116-a888-f03c1b93b3ea">
-          <ID>SUBREGION</ID>
-          <Name>SUBREGION</Name>
-          <SourceAttributeID>SUBREGION</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="9ca1df0c-09b2-4ee4-8610-9bf2dd1e4070">
-          <ID>STATEPROVINCEID</ID>
-          <Name>STATEPROVINCEID</Name>
-          <SourceAttributeID>STATEPROVINCEID</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="e3c6e361-62aa-4280-a46c-34bc56f700d4">
-          <ID>COUNTRYID</ID>
-          <Name>COUNTRYID</Name>
-          <SourceAttributeID>COUNTRYID</SourceAttributeID>
-        </Level>
-      </Levels>
-    </Hierarchy>
-  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

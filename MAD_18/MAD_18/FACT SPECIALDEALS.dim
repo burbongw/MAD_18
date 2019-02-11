@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2316" scrolltop="-5187" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17092" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2316" scrolltop="-5187" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17092" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CITY" left="4699" top="3411" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CITY" left="4699" top="2" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3889" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000310f00004d0c0000" />
             </control>
@@ -30,29 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="COUNTRY" left="11477" top="2" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3440" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c0000700d000043110000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="OLAP_COUNTRY" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PROVINCES" left="10988" top="6821" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4419" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000c0000431100004d0c0000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="OLAP_PROVINCES" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_SPECIALDEALS" left="20" top="12582" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4630" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FACT_SPECIALDEALS" left="20" top="9173" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="4630" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000161200009b0f0000" />
             </control>
@@ -63,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CUSTOMER" left="7050" top="12370" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="6218" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CUSTOMER" left="7050" top="8961" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="6218" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c00004a18000043110000" />
             </control>
@@ -74,27 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="8288" top="4685" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="4110" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[CITY-PROVINCES]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="18" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="10988" y="8395" />
-              <point x="9788" y="8395" />
-              <point x="9788" y="4985" />
-              <point x="8588" y="4985" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="6244" top="6061" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="4215" height="6609" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6244" top="2652" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="4215" height="6609" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -108,31 +66,13 @@
               </ddsxmlobj>
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="7" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6643" y="6560" />
-              <point x="6643" y="9465" />
-              <point x="10159" y="9465" />
-              <point x="10159" y="12370" />
+              <point x="6643" y="3151" />
+              <point x="6643" y="6056" />
+              <point x="10159" y="6056" />
+              <point x="10159" y="8961" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="12798" top="3922" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[PROVINCES-COUNTRY]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="13197" y="4421" />
-              <point x="13197" y="6821" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4350" top="14180" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4350" top="10771" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -146,8 +86,8 @@
               </ddsxmlobj>
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="28" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="7050" y="14579" />
-              <point x="4650" y="14579" />
+              <point x="7050" y="11170" />
+              <point x="4650" y="11170" />
             </connector>
           </ddscontrol>
         </dds>
@@ -200,8 +140,8 @@
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
     <Translation dwd:design-time-name="41fe4880-74f1-48ef-b25d-2aecab2a5506">
-      <Caption>Oferty specjalne</Caption>
       <Language>1045</Language>
+      <Caption>Oferty specjalne</Caption>
     </Translation>
   </Translations>
   <Attributes>
@@ -220,8 +160,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="ff5c0e08-1791-48f6-b679-504240f88b0f">
-          <Caption>Numer oferty</Caption>
           <Language>1045</Language>
+          <Caption>Numer oferty</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
@@ -260,8 +200,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="3955d044-e637-4a1c-adfc-c09b1751ee54">
-          <Caption>Data początkowa</Caption>
           <Language>1045</Language>
+          <Caption>Data początkowa</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -282,8 +222,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="9e3d152e-9f74-4c20-8c95-baae318c3724">
-          <Caption>Data końcowa</Caption>
           <Language>1045</Language>
+          <Caption>Data końcowa</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -304,8 +244,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="e6d6a129-2234-40c1-9703-4b2db78332c9">
-          <Caption>Rabat</Caption>
           <Language>1045</Language>
+          <Caption>Rabat</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -335,8 +275,8 @@
       </NameColumn>
       <Translations>
         <Translation dwd:design-time-name="4dd28095-b623-4ae3-b681-0ac73ee6e980">
-          <Caption>Klient</Caption>
           <Language>1045</Language>
+          <Caption>Klient</Caption>
         </Translation>
       </Translations>
       <AttributeRelationships>
@@ -379,8 +319,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="c623b599-ac88-4cfc-9a04-e0018367b4f9">
-          <Caption>Data utworzenia konta</Caption>
           <Language>1045</Language>
+          <Caption>Data utworzenia konta</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -401,8 +341,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="2e6fa48e-d87e-44c5-93ab-a289056ae53f">
-          <Caption>Standardowa wysokość rabatu</Caption>
           <Language>1045</Language>
+          <Caption>Standardowa wysokość rabatu</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -424,8 +364,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="d9b107e0-d08c-47f2-8c0a-d56858a4aa94">
-          <Caption>Numer telefonu</Caption>
           <Language>1045</Language>
+          <Caption>Numer telefonu</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -447,8 +387,8 @@
       </KeyColumns>
       <Translations>
         <Translation dwd:design-time-name="4691ea4e-55c0-44c1-800a-2661c4274c72">
-          <Caption>Adres klienta</Caption>
           <Language>1045</Language>
+          <Caption>Adres klienta</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
@@ -477,80 +417,8 @@
       </NameColumn>
       <Translations>
         <Translation dwd:design-time-name="3845abfb-f043-42db-8745-bf5c3cc23add">
+          <Language>1045</Language>
           <Caption>Miasto</Caption>
-          <Language>1045</Language>
-        </Translation>
-      </Translations>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5c251f12-212f-46eb-9bf9-8698ad5e6315">
-          <AttributeID>STATEPROVINCEID</AttributeID>
-          <Name>STATEPROVINCEID</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="cbbc4178-5808-4b29-b620-afeccfea06e9">
-      <ID>STATEPROVINCEID</ID>
-      <Name>STATEPROVINCEID</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="62f8f4b3-c3e5-49db-bbec-89082ec406b1">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a260393d-f371-4a18-82a1-8825a91b928b">
-            <TableID>OLAP_PROVINCES</TableID>
-            <ColumnID>STATEPROVINCEID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="0b8ecc2e-a15f-4f6b-8a9d-57ba602792ba">
-        <DataType>WChar</DataType>
-        <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="793b9859-b168-4955-9d57-6c0385cb1f9d">
-          <TableID>OLAP_PROVINCES</TableID>
-          <ColumnID>STATEPROVINCENAME</ColumnID>
-        </Source>
-      </NameColumn>
-      <Translations>
-        <Translation dwd:design-time-name="b53d6522-6e09-4bbe-a70c-aae50e0e3d5b">
-          <Caption>Stan</Caption>
-          <Language>1045</Language>
-        </Translation>
-      </Translations>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f842b197-c9b4-49c8-9789-6161621bb976">
-          <AttributeID>COUNTRYID</AttributeID>
-          <Name>COUNTRYID</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="374e9080-119a-4c31-80db-08ee1596ab59">
-      <ID>COUNTRYID</ID>
-      <Name>COUNTRYID</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="2e09aa27-644b-41ce-aaa8-46f33239fa7f">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d49b69bb-9603-4098-9ef4-0eb54f788bcc">
-            <TableID>OLAP_COUNTRY</TableID>
-            <ColumnID>COUNTRYID</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="15f568ad-b543-4e63-ab0b-97fe31d47ddf">
-        <DataType>WChar</DataType>
-        <DataSize>60</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="b141583a-5914-433d-a07e-4dd14535375c">
-          <TableID>OLAP_COUNTRY</TableID>
-          <ColumnID>COUNTRYNAME</ColumnID>
-        </Source>
-      </NameColumn>
-      <Translations>
-        <Translation dwd:design-time-name="57e2d034-cab1-4562-b388-fba307fc8fc1">
-          <Caption>Kraj</Caption>
-          <Language>1045</Language>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
