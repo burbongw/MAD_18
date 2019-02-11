@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5675" scrolltop="-6355" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="8546" y="20823" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5675" scrolltop="-6355" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17092" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="17706" top="6823" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4419" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PROVINCES" left="17706" top="6823" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4419" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000431100004d0c0000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="18195" top="4" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3440" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="COUNTRY" left="18195" top="4" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3440" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000700d000043110000" />
             </control>
@@ -229,6 +229,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="40b15d00-57d4-404b-9e8e-a22f40b766e2">
+      <Caption>Zamówienia</Caption>
+      <Language>1045</Language>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="4b0987b5-d765-44c2-8ac7-33738ac19a59">
       <ID>ORDERID</ID>
@@ -244,6 +250,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b54ef98b-2bf2-4c0c-b218-87f2218b7266">
+          <Caption>ID zamówienia</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="108e1473-0ae9-42d1-b11d-eefe38b7401c">
           <AttributeID>EXPECTEDDELIVERYDATE</AttributeID>
@@ -278,6 +290,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="a924bf13-eb7c-4e4a-b1e4-7452b1de643c">
+          <Caption>Data dostawy</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -295,6 +313,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="a66c5874-f643-4d42-a10a-59295e3cdc51">
+          <Caption>Numer zamówienia klienta</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -320,6 +344,12 @@
           <ColumnID>CUSTOMERNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="a4baf6f4-6f86-4fa1-8e36-965704b8d62b">
+          <Caption>Klient</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="04d48ca3-521f-4e36-9e8a-6ebca70f81f3">
           <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
@@ -358,6 +388,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="6945a421-4332-4258-b3fc-2e84e6bb4dc9">
+          <Caption>Data utworzenia konta</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -374,6 +410,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="5df48e15-0327-4ff8-a839-f97e4a20a351">
+          <Caption>Standardowa wysokość rabatu</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -391,6 +433,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="219e70f2-5918-420d-bc63-67035f91ae87">
+          <Caption>Numer telefonu</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -408,6 +456,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="4234729c-14f7-410d-a21a-bea407c7cab5">
+          <Caption>Adres klienta</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -432,6 +486,12 @@
           <ColumnID>CITYNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="702a97b0-cd56-4b4e-8895-c07e32db38bd">
+          <Caption>Miasto</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="67643359-e421-457b-bca4-bc2bbe764a7e">
           <AttributeID>STATEPROVINCEID</AttributeID>
@@ -462,6 +522,12 @@
           <ColumnID>STATEPROVINCENAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="7e98f70a-29bc-4c80-9ae1-dcb0f7275d69">
+          <Caption>Stan</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="3b4d871a-eeb2-4ae7-a18b-c6ffca2ce27b">
           <AttributeID>COUNTRYID</AttributeID>
@@ -492,6 +558,12 @@
           <ColumnID>COUNTRYNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="2c6cd8fa-a5a0-4e42-8aaf-8135618a23b8">
+          <Caption>Kraj</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -508,6 +580,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="790599b6-04ec-4bbb-a04c-a3e670a0b319">
+          <Caption>Data</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

@@ -258,6 +258,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="d70eb787-a25f-4bfa-9018-e225aa9aef70">
+      <Caption>Faktury</Caption>
+      <Language>1045</Language>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="e54e6861-f1e0-4f56-ac1c-a9961ef7d2cf">
       <ID>INVOICEID</ID>
@@ -272,6 +278,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="65fc77c5-c00c-4909-8a6b-aecc83cf162a">
+          <Caption>ID faktury</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="fb085f19-4c16-455b-8a00-e45f9fffca66">
           <AttributeID>INVOICEDATE</AttributeID>
@@ -322,6 +334,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="93d5bc31-ab55-4faa-bbc5-53100559647d">
+          <Caption>Data faktury</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -339,6 +357,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="8870f496-0531-4f4c-8e5a-0d742699bcca">
+          <Caption>Numer zamówienia klienta</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -355,6 +379,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="51692732-c30d-4ab5-9b85-61bbfafc78d8">
+          <Caption>Instrukcje dostawy</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -371,6 +401,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="aba10dd0-e222-4d3c-9486-37e2d395217d">
+          <Caption>Przedmioty suche</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -387,6 +423,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="5ceefd60-3432-42c5-8bfd-232c0d3a90d0">
+          <Caption>Przedmioty chłodzone</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -404,6 +446,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="bcacf96d-b70c-41b0-b7fa-f5ceb4eefdc3">
+          <Caption>Data dostawy</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -421,6 +469,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="c7dd2eb6-1496-463e-a463-ff1a5b673234">
+          <Caption>Potwierdzenie odbioru</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -438,6 +492,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="06e5a110-05f9-4760-b74b-d2e0d2237c64">
+          <Caption>Numer zamówienia</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="8dc31853-c49c-4293-ac19-807c5cbbb3a5">
           <AttributeID>EXPECTEDDELIVERYDATE</AttributeID>
@@ -468,6 +528,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="18ffbb79-657e-4c52-92f8-2a35596dcb82">
+          <Caption>Przewidywana data dostawy</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -493,6 +559,12 @@
           <ColumnID>CUSTOMERNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="0186ced6-670e-4fe6-b665-4204fddb6963">
+          <Caption>Klient</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="3be3a9f8-e717-49f5-9291-317199a332ac">
           <AttributeID>CITYID</AttributeID>
@@ -523,6 +595,12 @@
           <ColumnID>CITYNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="960b1b16-f6a4-454e-a249-dd8246e53464">
+          <Caption>Miasto</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="5a751b70-5905-4805-8bbd-6072e7e258a0">
           <AttributeID>STATEPROVINCEID</AttributeID>
@@ -553,6 +631,12 @@
           <ColumnID>STATEPROVINCENAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="207e2505-872e-4f15-83a5-8e59de68d0d9">
+          <Caption>Stan</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="ab81dde4-c996-4c09-be60-dd127e0849cd">
           <AttributeID>COUNTRYID</AttributeID>
@@ -583,6 +667,12 @@
           <ColumnID>COUNTRYNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="5d395e60-1894-4d20-bd56-055fedf6133c">
+          <Caption>Kraj</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -599,6 +689,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="2c7b56f3-add3-459e-8f14-70b8085bafc1">
+          <Caption>Data</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

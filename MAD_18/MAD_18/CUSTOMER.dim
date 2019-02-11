@@ -169,6 +169,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="06e83d90-9619-4a37-a8e2-6ed5453c5706">
+      <Caption>Klient</Caption>
+      <Language>1045</Language>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="b2935f27-f817-4968-8895-a550956b7dd6">
       <ID>CUSTOMERID</ID>
@@ -192,6 +198,12 @@
           <ColumnID>CUSTOMERNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="f987c055-5aa0-4eaf-aa58-dd0335f9b173">
+          <Caption>Klient</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="4cc32264-42c4-4173-b02a-d756fb4673e2">
           <AttributeID>ACCOUNTOPENEDDATE</AttributeID>
@@ -242,6 +254,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="71192fa9-5a65-4d60-a629-f3c6b3efa468">
+          <Caption>Data utworzenia konta</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -258,6 +276,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="9e8d2dfb-b4ba-4b7c-bdc1-19df99776df0">
+          <Caption>Standardowa wysokość rabatu</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -275,6 +299,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="017184a5-0951-45d9-b906-95030438cd91">
+          <Caption>Numer telefonu</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -292,6 +322,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="a2a4511e-c73d-46d8-b62c-727661e3db13">
+          <Caption>Adres klienta</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -309,6 +345,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="86cd5c45-48d3-4ca9-ba17-3d653c5ec8f4">
+          <Caption>Adres poczty</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

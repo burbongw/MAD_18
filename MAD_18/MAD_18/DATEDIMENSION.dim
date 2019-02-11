@@ -77,6 +77,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="a8964a86-db38-44fd-ab3b-677bdfb4f318">
+      <Caption>Data</Caption>
+      <Language>1045</Language>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="83c3b76d-c66a-4e02-8bb5-00f7f222c3ca">
       <ID>DATE</ID>
@@ -91,6 +97,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="63dbb0bc-4289-4bf4-813c-bbc984a159b4">
+          <Caption>Data</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="7cfbdae7-993d-48bd-a1bc-d7c84209a436">
           <AttributeID>WEEKDAY</AttributeID>
@@ -133,6 +145,12 @@
           <ColumnID>WEEKDAYNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="c01833fc-34b5-4d51-b9de-02b1eb2377f7">
+          <Caption>Dzień</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -157,6 +175,12 @@
           <ColumnID>MONTHNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="9d9e2234-8d15-42a6-a949-7af8a1fa496a">
+          <Caption>Miesiąc</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -181,6 +205,12 @@
           <ColumnID>QUARTERNAME</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="f8e8cd66-9847-4333-b0af-12808c1ae10c">
+          <Caption>Kwartał</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -197,6 +227,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="1d08126e-ae66-4de0-bb77-ada269fba13f">
+          <Caption>Rok</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
