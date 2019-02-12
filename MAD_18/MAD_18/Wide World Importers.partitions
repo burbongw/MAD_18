@@ -61,5 +61,25 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>CUSTOMER</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="adb21ff7-8665-4eeb-bf80-97b6118d7d2f">
+          <ID>CUSTOMER</ID>
+          <Name>CUSTOMER</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0a5dd4a6-2464-42a2-8479-b15de2ff80fc">
+            <DataSourceViewID>Wide World Importers</DataSourceViewID>
+            <TableID>OLAP_CUSTOMER</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>
